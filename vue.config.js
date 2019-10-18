@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: '/DiffWay/docs',
+  publicPath: '/DiffWay',
   outputDir: 'docs'
 }
