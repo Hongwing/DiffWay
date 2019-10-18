@@ -1,6 +1,8 @@
-# DiffWay
+<p align="center">
+    <img style="text-align: center" src="./src/assets/logo.png" width="240" height="240" />
+</p>
 
-A Tool 🔧 to compare code-file and Show difference 💻 / 📃
+<p align="center"> A Tool 🔧 to compare code-file and Show difference 💻 / 📃</p>
 
 ---
 
