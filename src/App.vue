@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" width="120" height="120" src="./assets/logo.png">
     <div class="dw-main">
-      
+      <home></home>
     </div>
   </div>
 </template>
 
 <script>
+import Home from './pages/Home'
 
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Home
+  }
 }
 </script>
 
