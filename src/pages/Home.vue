@@ -3,9 +3,10 @@
   <div class="dw-home">
     <div class="dw-home-tools">
       <button @click="handleDiff">点击Diff</button>
+      <button @click="handleClear" v-if="showDiff">清空</button>
     </div>
     <div class="dw-home-panel">
-      <dw-diffpanel></dw-diffpanel>
+      <dw-diffpanel :showDiff="showDiff"></dw-diffpanel>
     </div>
   </div>
 </template>
@@ -19,13 +20,17 @@ export default {
   },
   data: () => {
     return {
-      name: "DW Home"
+      name: "DW Home",
+      showDiff: false
     };
   },
   methods: {
-      handleDiff: () => {
-          
-      }
+    handleDiff: function() {
+      this.showDiff = true
+    },
+    handleClear: function() {
+      this.showDiff = false
+    }
   }
 };
 </script>
@@ -42,7 +47,7 @@ export default {
     border-radius: 4px;
     padding: 8px 12px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 
     button {
       font-size: 1.2rem;
@@ -51,6 +56,7 @@ export default {
       color: #cb1173;
       padding: 4px 8px;
       outline: none;
+      margin: 0 8px;
     }
   }
 
