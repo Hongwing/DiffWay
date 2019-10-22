@@ -7603,6 +7603,11 @@ terser@^4.1.2:
     source-map "~0.6.1"
     source-map-support "~0.5.12"
 
+text-diff@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/text-diff/download/text-diff-1.0.1.tgz#6c105905435e337857375c9d2f6ca63e453ff565"
+  integrity sha1-bBBZBUNeM3hXN1ydL2ymPkU/9WU=
+
 text-table@^0.2.0, text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.npm.taobao.org/text-table/download/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
